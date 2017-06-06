@@ -14,7 +14,7 @@ You'll need a Flickr API key and secret that should be entered in `settings.py`.
 
 ## Identifying popular tags
 
-We'll get the most "intersting" photos from Flickr and obtain the tags that were assigned to them. We keep track of how many times each tag was used and create a spreadsheet `tags.csv` of them all ordered by frequency.
+We'll get the most "interesting" photos from Flickr and obtain the tags that were assigned to them. We keep track of how many times each tag was used and create a spreadsheet `tags.csv` of them all ordered by frequency.
 
     ./collect_tags.py
 
