@@ -38,6 +38,6 @@ Next we download a set number of images for each of the tags in `tags.csv` and s
 
 ## Training
 
-You may want to sort through and delete some of the collected images by hand to improve the accuracy of your training. I aim to build a web-based tool for doing this more quickly in future. You could also croud-source this step using something like Amazon's Mechanical Turk.
+You may want to sort through and delete some of the collected images by hand to improve the accuracy of your training. I aim to build a web-based tool for doing this more quickly in future. You could also crowd-source this step using something like Amazon's Mechanical Turk.
 
 Once you have built and refined your dataset you might want to use my simple wrapper for training an image classifier model: https://github.com/damianmoore/tensorflow-image-classifier
