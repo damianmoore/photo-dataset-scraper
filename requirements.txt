@@ -1,0 +1,2 @@
+flickrapi==2.3
+scikit-image==0.13.0
