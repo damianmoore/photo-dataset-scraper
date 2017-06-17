@@ -72,7 +72,7 @@ if __name__ == '__main__':
 
     try:
         os.mkdir(training_dirname)
-    except FileExistsError:
+    except OSError:
         pass
 
     for tag in get_tags_from_csv()[:args.labels]:

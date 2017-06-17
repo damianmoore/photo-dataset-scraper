@@ -31,7 +31,7 @@ You'll want to refine this list of tags by deleting rows that are not suitable. 
 
 Next we download a set number of images for each of the tags in `tags.csv` and save them in labelled directories.
 
-    ./download_tagged_images.py
+    ./download_tagged_images.py -w 10
 
 **Warning:** You will be downloading lots of user-generated images that are very diverse. Because of this, there will undoubtably be some images that are unsuitable for children and unsuitable for work environments.
 
